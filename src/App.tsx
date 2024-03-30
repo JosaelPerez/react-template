@@ -1,9 +1,10 @@
 import "./App.css"
+import Component from "@lib/components/Component"
 
 function App() {
   return (
     <>
-      <h1>React</h1>
+      <Component />
     </>
   )
 }

@@ -6,5 +6,11 @@ export default defineConfig({
   plugins: [react()],
   server: {
     open: true
+  },
+  // Absolute imports
+  resolve: {
+    alias: {
+      "@lib": "/src/lib"
+    }
   }
 })
