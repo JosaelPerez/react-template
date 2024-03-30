@@ -1,10 +1,12 @@
 import "./App.css"
 import Component from "@lib/components/Component"
+import ComponentList from "@lib/components/ComponentList"
 
 function App() {
   return (
     <>
-      <Component />
+      <Component field2={true} />
+      <ComponentList />
     </>
   )
 }

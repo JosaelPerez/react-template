@@ -10,7 +10,8 @@ export default defineConfig({
   // Absolute imports
   resolve: {
     alias: {
-      "@lib": "/src/lib"
+      "@lib": "/src/lib",
+      "@assets": "/src/assets",
     }
   }
 })
